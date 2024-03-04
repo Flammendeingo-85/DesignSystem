@@ -32,5 +32,58 @@ body {
   width: 1200px;
   height: auto;
   margin: 0 auto;
-  border: 1px dashed blue;
+}
+
+/*-- MAIN SECTION --*/
+main {
+  margin: 25px 0px;
+}
+
+/*-- COLOR SECTION --*/
+.colors {
+  position: relative;
+  padding: 30px 10px;
+  border: 2px solid #a2a2a6;
+}
+
+.clr-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.clr-panel {
+  display: inline-block;
+  width: 33%;
+  height: 100px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.clr-panel:nth-child(1) {
+  background-color: var(--clr-blue);
+}
+
+.clr-panel:nth-child(2) {
+  background-color: var(--clr-pink);
+}
+
+.clr-panel:nth-child(3) {
+  background-color: var(--clr-green);
+}
+
+.clr-panel:nth-child(4) {
+  background-color: var(--clr-beige);
+}
+
+.clr-panel:nth-child(5) {
+  background-color: var(--clr-white);
+}
+
+.clr-panel:nth-child(6) {
+  background-color: var(--clr-gray);
+}
+
+.clr-label {
+  position: relative;
+  top: 50%;
 }
