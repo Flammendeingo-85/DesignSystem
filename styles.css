@@ -42,8 +42,12 @@ main {
 /*-- COLOR SECTION --*/
 .colors {
   position: relative;
-  padding: 30px 10px;
+  padding: 20px 10px;
   border: 2px solid #a2a2a6;
+}
+
+.heading-colors {
+  margin-top: 10px; 
 }
 
 .clr-container {
