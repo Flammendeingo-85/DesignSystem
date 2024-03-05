@@ -1,4 +1,6 @@
+/*-----------------*/
 /* ROOT COMPONENTS */
+/*-----------------*/
 :root {
   /* MAIN COLORS */
   --clr-blue: #2d5dcc;
@@ -33,13 +35,16 @@ body {
   height: auto;
   margin: 0 auto;
 }
-
+/*------------------*/
 /*-- MAIN SECTION --*/
+/*------------------*/
 main {
   margin: 25px 0px;
 }
 
+/*-------------------*/
 /*-- COLOR SECTION --*/
+/*-------------------*/
 .colors {
   position: relative;
   padding: 20px 10px;
@@ -47,7 +52,7 @@ main {
 }
 
 .heading-colors {
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .clr-container {
@@ -65,6 +70,7 @@ main {
 
 .clr-panel:nth-child(1) {
   background-color: var(--clr-blue);
+  color: var(--clr-white);
 }
 
 .clr-panel:nth-child(2) {
@@ -85,9 +91,20 @@ main {
 
 .clr-panel:nth-child(6) {
   background-color: var(--clr-gray);
+  color: var(--clr-white);
 }
 
 .clr-label {
-  position: relative;
-  top: 50%;
+  margin-top: 20px;
 }
+
+.clr-hex {
+  margin-top: 20px;
+}
+/*-------------------*/
+/*-- FONTS SECTION --*/
+/*-------------------*/
+
+/*------------------------*/
+/*-- FONTSTYLES SECTION --*/
+/*------------------------*/
