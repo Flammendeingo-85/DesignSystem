@@ -11,8 +11,16 @@
   --clr-gray: #777777;
 
   /* MAIN FONTS */
+  --ff-poppins: "Poppins", sans-serif;
+  --ff-nunito: "Nunito Sans", sans-serif;
 
   /* MAIN TEXT STYLES */
+  --fw-nunito-h1: 700;
+  --fw-poppins-h2: 500;
+  --fw-poppins-p: 400;
+  --fs-nunito-h1: 26px;
+  --fs-poppins-h2: 18px;
+  --fs-poppins-p: 14px;
 }
 
 *,
@@ -66,6 +74,7 @@ main {
   height: 100px;
   margin: 20px auto;
   text-align: center;
+  font-family: ;
 }
 
 .clr-panel:nth-child(1) {
