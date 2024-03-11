@@ -13,6 +13,7 @@
   /* MAIN FONTS */
   --ff-poppins: "Poppins", sans-serif;
   --ff-nunito: "Nunito Sans", sans-serif;
+  --ff-sourcepro: "Source Code Pro", monospace;
 
   /* MAIN TEXT STYLES */
   --fw-nunito-h1: 700;
@@ -118,15 +119,52 @@ main {
   width: 100%;
   height: auto;
   margin-top: 10px;
+  line-height: 2.2;
   border: 2px solid #a2a2a6;
 }
 
 h2 {
   margin: 25px 10px;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: var(--ff-nunito);
 }
 
+/* DIV SOURCEPRO */
 .sourcepro {
+  font-family: var(--ff-sourcepro);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* DIV NUNITO */
+.nunito {
   font-family: var(--ff-nunito);
+  display: inline-block;
+  margin-left: 200px;
+}
+
+/* DIV POPPINS */
+.poppins {
+  font-family: var(--ff-poppins);
+  margin: 30px 10px;
+}
+
+/***********************/
+/* DIV ALLROUND STYLES */
+/***********************/
+.heading {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }
 
 /*------------------------*/
