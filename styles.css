@@ -113,7 +113,11 @@ main {
 /*-------------------*/
 /*-- FONTS SECTION --*/
 /*-------------------*/
-
+.fonts {
+  display: block;
+  margin-top: 10px;
+  border: 2px solid #a2a2a6;
+}
 /*------------------------*/
 /*-- FONTSTYLES SECTION --*/
 /*------------------------*/
