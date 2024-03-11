@@ -114,10 +114,22 @@ main {
 /*-- FONTS SECTION --*/
 /*-------------------*/
 .fonts {
-  display: block;
+  display: inline-block;
+  width: 100%;
+  height: auto;
   margin-top: 10px;
   border: 2px solid #a2a2a6;
 }
+
+h2 {
+  margin: 25px 10px;
+}
+
+.sourcepro {
+  font-family: var(--ff-nunito);
+  width: 
+}
+
 /*------------------------*/
 /*-- FONTSTYLES SECTION --*/
 /*------------------------*/
