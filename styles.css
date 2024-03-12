@@ -170,3 +170,12 @@ h2 {
 /*------------------------*/
 /*-- TEXTSTYLES SECTION --*/
 /*------------------------*/
+.textstyles {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  line-height: 2.2;
+  border: 2px solid #a2a2a6;
+}
+
