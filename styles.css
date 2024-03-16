@@ -51,6 +51,10 @@ main {
   margin: 25px 0px;
 }
 
+h1 {
+  font-family: var(--ff-nunito);
+}
+
 /*-------------------*/
 /*-- COLOR SECTION --*/
 /*-------------------*/
@@ -175,7 +179,40 @@ h2 {
   width: 100%;
   height: auto;
   margin-top: 10px;
-  line-height: 2.2;
   border: 2px solid #a2a2a6;
 }
 
+.h1-mainpage {
+  font-weight: 700;
+  font-size: 2em;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-left: 50px;
+  font-size: 14px;
+  font-family: var(--ff-poppins);
+}
+
+li:last-child {
+  margin-bottom: 20px;
+}
+
+.h2-subheading, .p-paragraphtext {
+  margin-left: 10px;
+}
+
+.h2-subheading {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: var(--ff-poppins);
+  margin-bottom: 15px;
+}
+
+.p-paragraphtext {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--ff-poppins);
+  margin-bottom: 20px;
+}
